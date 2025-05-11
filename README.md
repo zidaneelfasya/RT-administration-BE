@@ -57,19 +57,18 @@ php artisan key:generate
 pastikan kosong
 ```bash
 php artisan migrate
-```
-jika tidak kosong bisa menggunakan 
-```bash
+
+//jika tidak kosong bisa menggunakan 
+
 php artisan migrate:fresh
 ```
 
 Seed
-dummy data, data awal
 ```bash
+//dummy data, data awal
 php artisan db:seed
-```
-jika ingin dummy data tambahan untuk pengeluaran dan pembayaran
-```bash
+
+//jika ingin dummy data tambahan untuk pengeluaran dan pembayaran
 php artisan db:seed --class=DatabaseSeederSec
 ```
 
