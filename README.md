@@ -54,9 +54,23 @@ php artisan key:generate
 ```
 
 5. **Jalankan migrasi database**
-
+pastikan kosong
 ```bash
 php artisan migrate
+```
+jika tidak kosong bisa menggunakan 
+```bash
+php artisan migrate:fresh
+```
+
+Seed
+dummy data, data awal
+```bash
+php artisan db:seed
+```
+jika ingin dummy data tambahan untuk pengeluaran dan pembayaran
+```bash
+php artisan db:seed --class=DatabaseSeederSec
 ```
 
 6. **Jalankan server Laravel**
