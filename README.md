@@ -75,7 +75,13 @@ php artisan db:seed
 php artisan db:seed --class=DatabaseSeederSec
 ```
 
-6. **Jalankan server Laravel**
+6. Storage
+
+```bash
+php artisan storage:link
+```
+
+7. **Jalankan server Laravel**
 
 ```bash
 php artisan serve
