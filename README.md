@@ -20,7 +20,7 @@ Sebelum menjalankan proyek ini, pastikan kamu sudah menginstal:
 
 1. **Clone repositori**
 ```bash
-git clone https://github.com/zidaneelfasya/TBC-laravel.git
+git clone https://github.com/zidaneelfasya/RT-administration-BE.git
 cd TBC-laravel
 ```
   
