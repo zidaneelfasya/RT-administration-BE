@@ -58,17 +58,17 @@ pastikan kosong
 ```bash
 php artisan migrate
 
-//jika tidak kosong bisa menggunakan 
+##jika tidak kosong bisa menggunakan 
 
 php artisan migrate:fresh
 ```
 
 Seed
 ```bash
-//dummy data, data awal
+##dummy data, data awal
 php artisan db:seed
 
-//jika ingin dummy data tambahan untuk pengeluaran dan pembayaran
+##jika ingin dummy data tambahan untuk pengeluaran dan pembayaran
 php artisan db:seed --class=DatabaseSeederSec
 ```
 
