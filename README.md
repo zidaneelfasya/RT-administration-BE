@@ -59,8 +59,11 @@ pastikan kosong
 php artisan migrate
 
 ##jika tidak kosong bisa menggunakan 
-
 php artisan migrate:fresh
+
+##jika ingin langsung seed
+php artisan migrate --seed
+php artisan migrate:fresh --seed
 ```
 
 Seed
