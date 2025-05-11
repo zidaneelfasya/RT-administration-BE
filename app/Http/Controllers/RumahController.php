@@ -48,8 +48,7 @@ class RumahController extends Controller
         $penghuniAktif = PenghuniRumah::with('penghuni')
             ->where('rumah_id', $rumahId)
             ->where(function ($query) {
-                $query->whereNull('tanggal_selesai')
-                    ->orWhere('tanggal_selesai', '>', now());
+                $query->whereNull('tanggal_selesai');
             })
             ->orderBy('tanggal_mulai', 'desc')
             ->get();
@@ -103,7 +102,7 @@ class RumahController extends Controller
     {
         $validated = $request->validate([
             'nomor_rumah' => 'required|string|max:10|unique:rumah',
-            
+
         ]);
 
         Rumah::create($validated);
