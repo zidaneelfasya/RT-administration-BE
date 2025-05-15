@@ -1,6 +1,6 @@
-# TBC-CRUD with photo
+# RT Administration system
 
-Repositori ini menggunakan Laravel dengan Laravel Breeze, Inertia.js, dan React sebagai stack frontend-nya.
+Repositori ini menggunakan Laravel dengan Laravel Breeze
 
 ## Fitur
 
@@ -21,7 +21,7 @@ Sebelum menjalankan proyek ini, pastikan kamu sudah menginstal:
 1. **Clone repositori**
 ```bash
 git clone https://github.com/zidaneelfasya/RT-administration-BE.git
-cd TBC-laravel
+cd RT-administration-BE
 ```
   
 2. **Install dependensi PHP dengan Composer**
